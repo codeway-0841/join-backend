@@ -1,0 +1,14 @@
+{
+  "name": "join-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "codeway",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch db.json --port 9999"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
